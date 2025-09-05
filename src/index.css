@@ -2,58 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Risalamoon Notebook Design System - Professional Tech Colors */
+/* Risalamoon Notebook Design System - Modern Professional Colors */
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 213 31% 10%;
+    --background: 220 43% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 31% 10%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 31% 10%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 213 31% 15%;
+    --primary: 217 78% 32%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 213 15% 92%;
-    --secondary-foreground: 213 31% 15%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 213 15% 95%;
-    --muted-foreground: 213 15% 45%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 152 60% 50%;
+    --accent: 221 91% 60%;
     --accent-foreground: 0 0% 98%;
 
-    --success: 152 60% 50%;
+    --success: 158 84% 39%;
     --success-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 213 15% 88%;
-    --input: 213 15% 90%;
-    --ring: 213 31% 15%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 78% 32%;
 
-    /* Tech-focused design tokens */
-    --tech-blue: 213 31% 15%;
-    --tech-blue-light: 213 25% 25%;
-    --tech-gray: 213 15% 50%;
-    --tech-gray-light: 213 15% 85%;
-    --success-green: 152 60% 50%;
-    --success-green-light: 152 40% 90%;
+    /* Modern professional design tokens */
+    --tech-blue: 217 78% 32%;
+    --tech-blue-light: 221 83% 53%;
+    --tech-gray: 215 20% 65%;
+    --tech-gray-light: 220 14% 96%;
+    --success-green: 158 84% 39%;
+    --success-green-light: 158 75% 92%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(213 31% 15%) 0%, hsl(213 25% 25%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(152 60% 50%) 0%, hsl(152 55% 60%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%) 0%, hsl(213 15% 96%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(217 78% 32%) 0%, hsl(221 83% 53%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(221 91% 60%) 0%, hsl(221 83% 65%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(220 43% 98%) 0%, hsl(220 14% 96%) 100%);
 
     /* Shadows */
-    --shadow-soft: 0 4px 12px hsl(213 31% 15% / 0.1);
-    --shadow-medium: 0 8px 24px hsl(213 31% 15% / 0.15);
-    --shadow-strong: 0 16px 48px hsl(213 31% 15% / 0.2);
+    --shadow-soft: 0 4px 12px hsl(217 78% 32% / 0.1);
+    --shadow-medium: 0 8px 24px hsl(217 78% 32% / 0.15);
+    --shadow-strong: 0 16px 48px hsl(217 78% 32% / 0.2);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
