@@ -1,6 +1,7 @@
 import { Phone, MapPin, Laptop, Monitor, Wrench, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import layananHeroBg from "@/assets/layanan-hero-bg.jpg";
 
 const Layanan = () => {
   const handleWhatsApp = () => {
@@ -52,8 +53,12 @@ const Layanan = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-hero text-primary-foreground py-16">
-        <div className="container mx-auto px-4">
+      <section 
+        className="text-primary-foreground py-16 bg-cover bg-center bg-no-repeat relative"
+        style={{ backgroundImage: `url(${layananHeroBg})` }}
+      >
+        <div className="absolute inset-0 bg-primary/70"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Layanan Servis Laptop & Komputer Profesional
