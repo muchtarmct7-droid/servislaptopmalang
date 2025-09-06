@@ -2,7 +2,7 @@ name: Deploy Vite to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"]  # jalan tiap kali ada push ke branch main
 
 permissions:
   contents: read
@@ -22,7 +22,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build project
         run: npm run build
