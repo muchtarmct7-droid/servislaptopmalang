@@ -2,17 +2,15 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=/servislaptopmalang/" />
+    <title>Halaman tidak ditemukan</title>
     <script>
-      // Script fallback: ambil path & redirect ke index.html dengan hash
-      (function () {
-        var redirect = "/servislaptopmalang/" + (window.location.pathname.replace("/servislaptopmalang", "") || "");
-        window.location.replace(redirect);
-      })();
+      // Simpan path yang dikunjungi
+      sessionStorage.redirect = location.href;
+      // Redirect ke index.html
+      location.replace("/servislaptopmalang/");
     </script>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <p>Sedang mengarahkan ke halaman utama...</p>
   </body>
 </html>
